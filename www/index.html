@@ -13,6 +13,12 @@
         let TestClass = ncmb.DataStore("RegisterTest2");
         let testRecord = new TestClass();
 
+        $(function() {
+            $("#btnA").click(function(e) {
+                btnAClick(e);
+            })
+        });
+        
         /*
         testRecord.set("message2", "hello, world");
         testRecord.save()
