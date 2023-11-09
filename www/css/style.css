@@ -1,2 +1,25 @@
 /**/
 
+body {
+    background-color: lightgreen;
+}
+h1 {
+    background-color: lightpink;
+}
+label {
+    width: 25%;
+    text-align: right;
+}
+#btn {
+    text-align: center;
+}
+#btnA {
+    width: 5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24pt;
+    height: 4ex;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+}

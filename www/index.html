@@ -12,6 +12,8 @@
         let ncmb = new NCMB(appKey, clientKey);
         let TestClass = ncmb.DataStore("RegisterTest2");
         let testRecord = new TestClass();
+
+        /*
         testRecord.set("message2", "hello, world");
         testRecord.save()
             .then(function(m){
@@ -20,10 +22,23 @@
             .catch(function(m){
                 alert("fail: " + JSON.stringify(m));
             });
+        */
     </script>
 </head>
 <body>
-	<br />
-    This is a template for Monaca app.
+    <h1>Data Registration.</br>(For mbaas)</h1>
+    <div>
+        <label for="field">Field Name:</label>
+        <input id="field" type="text" value="">
+        </br>
+        <label for="value">Value Name:</label>
+        <input id="value" type="text" value="">
+        </br></br>
+        <label for="status">Previous Status:</label>
+        <input id="status" type="text" value="">
+    </div>
+    <div id="btn">
+        <button id="btnA" class="btn"> Register </button>
+    </div>
 </body>
 </html>
